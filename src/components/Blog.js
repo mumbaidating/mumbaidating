@@ -74,7 +74,7 @@ const Wrapper = styled.div`
     font-weight: bold;
   }
   .post {
-    width: calc(33% - 10px);
+    width: calc(50% - 10px);
     overflow: hidden;
   }
 

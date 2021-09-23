@@ -90,7 +90,7 @@ const Covid = () => {
                 <h3>
                   <span className="covid_small">Total</span> active
                 </h3>
-                <span>{data.active}</span>
+                <span>29.7L</span>
               </div>
             </div>
             <div className="covid_card">
@@ -98,7 +98,7 @@ const Covid = () => {
                 <h3>
                   <span className="covid_small">Total</span> confirmed
                 </h3>
-                <span>{data.confirmed}</span>
+                <span>2970208</span>
               </div>
             </div>
             <div className="covid_card">
@@ -106,13 +106,13 @@ const Covid = () => {
                 <h3>
                   <span className="covid_small">Total</span> deaths
                 </h3>
-                <span>{data.deaths}</span>
+                <span>37668</span>
               </div>
             </div>
             <div className="covid_card">
               <div className="card-content">
                 <h3>migratedother</h3>
-                <span>{data.migratedother}</span>
+                <span>24,039</span>
               </div>
             </div>
             <div className="covid_card">
@@ -120,15 +120,15 @@ const Covid = () => {
                 <h3>
                   <span className="covid_small"></span> state
                 </h3>
-                <span>{data.state}</span>
+                <span>Karnataka</span>
               </div>
             </div>
             <div className="covid_card">
               <div className="card-content">
                 <h3>
-                  <span className="covid_small">Total</span> recovered
+                  <span className="covid_small">Total</span> Discharged
                 </h3>
-                <span>{data.recovered}</span>
+                <span>2918890</span>
               </div>
             </div>
             <div className="covid_card">
