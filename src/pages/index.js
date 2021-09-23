@@ -58,9 +58,9 @@ export default function Home() {
               You might be a newcomer, but we are not- Our Mumbai Escorts Agency
               has been in this wonderful venture of connecting call girls to
               their lovers for more than a decade now. Your search for the right
-              Call girls Services in Mumbai will surely end here. (Don’t worry-
+              Call girls Services in Mumbai will surely end here. Don’t worry-
               We will give you enough reasons to become Bed partners with our
-              lovely and seductive Mumbai Escorts).
+              lovely and seductive Mumbai Escorts.
             </p>
 
             <p className="para_two">
@@ -75,10 +75,13 @@ export default function Home() {
               But, don't worry, our Best Rated Escorts Agency in Mumbai is a
               specialist in making our clients' fantasies and dreams true. Do
               you know? We have a customer base of more than 15000+ in our
-              Mumbai Escort Services Agency. Our Mumbai Call Girls Service is
-              one of the oldest and reputable agencies in whole Mumbai. We are
-              the best in the business for multiple reasons. You will know all
-              of them- Just hang on to our website.
+              Mumbai Escort Services Agency.
+            </p>
+            <p className="para_three">
+              Our Mumbai Call Girls Service is one of the oldest and reputable
+              agencies in whole Mumbai. We are the best in the business for
+              multiple reasons. You will know all of them- Just hang on to our
+              website.
             </p>
           </div>
         </div>
