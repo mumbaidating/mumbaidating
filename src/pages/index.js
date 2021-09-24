@@ -555,7 +555,7 @@ export default function Home() {
 
 const Wrapper = styled.div`
   .home_top_new {
-    background-color: #ed0101;
+    background-color: #000;
   }
   .cat_tit {
     color: var(--headings);
