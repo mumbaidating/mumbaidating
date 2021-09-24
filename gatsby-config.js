@@ -61,7 +61,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        siteUrl: `https://www.mumbaidating.net/`,
+        siteUrl: `https://www.mumbaidating.net`,
       },
     },
     "gatsby-plugin-robots-txt",
