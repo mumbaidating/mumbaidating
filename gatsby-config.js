@@ -15,7 +15,7 @@ module.exports = {
     description: "Best escorts in Mumbai",
     twitterUsername: `@john_smilga`,
     image: `/sexy-night.png`,
-    siteUrl: `https://www.mumbaidating.net/`,
+    siteUrl: `https://www.mumbaidating.net`,
   },
 
   plugins: [
