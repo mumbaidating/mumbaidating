@@ -18,7 +18,7 @@ const query = graphql`
   }
 `
 
-const SEO = ({ title, description, image, article }) => {
+const SEO = ({ title, description, image, article, schemaMarkup }) => {
   const { pathname } = useLocation()
   const { site } = useStaticQuery(query)
 
@@ -68,6 +68,22 @@ const SEO = ({ title, description, image, article }) => {
       )}
 
       {seo.image && <meta name="twitter:image" content={seo.image} />}
+
+      <script type="application/ld+json">
+        {`
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://www.mumbaidating.net",
+          "name": "Mumbai Dating",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+91 9000000000",
+            "contactType": "Get Your Dream Girl"
+          }
+        }
+      `}
+      </script>
     </Helmet>
   )
 }
