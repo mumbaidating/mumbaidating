@@ -2,7 +2,10 @@ import React, { useEffect, useState } from "react"
 import styled from "styled-components"
 
 const Covid = () => {
+  const [date, setDate] = React.useState(new Date())
+
   const [data, setCovidData] = useState([])
+
   console.log(data)
 
   const getCovidData = async () => {
@@ -18,6 +21,18 @@ const Covid = () => {
   useEffect(() => {
     getCovidData()
   }, [])
+
+  //Replaces componentDidMount and componentWillUnmount
+  React.useEffect(() => {
+    var timerID = setInterval(() => tick(), 1000)
+    return function cleanup() {
+      clearInterval(timerID)
+    }
+  })
+
+  function tick() {
+    setDate(new Date())
+  }
 
   return (
     <>
@@ -135,7 +150,7 @@ const Covid = () => {
               <div className="card-content">
                 <h3 className="time_covid">lastupdatedtime</h3>
                 <span className="covid_time time_covid">
-                  {data.lastupdatedtime}
+                  {date.toLocaleTimeString()}.
                 </span>
               </div>
             </div>

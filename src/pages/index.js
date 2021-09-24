@@ -40,56 +40,53 @@ export default function Home() {
             />
           </div>
         </div>
-
         <SimpleSlider />
+        <div className="home_top_new">
+          <div className="home_top">
+            {/* slide line start  */}
+            <div className="section-title">
+              <h1 className="section_title_main">
+                Open the Kamasutra Gateway- A Warm Welcome from the Best Mumbai
+                Escorts
+              </h1>
+              <div className="bar"></div>
+            </div>
+            {/* slide line start  */}
+            <div className="para_cls">
+              <p className="para_one">
+                You might be a newcomer, but we are not- Our Mumbai Escorts
+                Agency has been in this wonderful venture of connecting call
+                girls to their lovers for more than a decade now. Your search
+                for the right Call girls Services in Mumbai will surely end
+                here. Don’t worry- We will give you enough reasons to become Bed
+                partners with our lovely and seductive Mumbai Escorts.
+              </p>
 
-        <div className="home_top">
-          {/* slide line start  */}
-          <div className="section-title">
-            <h1 className="section_title_main">
-              Open the Kamasutra Gateway- A Warm Welcome from the Best Mumbai
-              Escorts
-            </h1>
-            <div className="bar"></div>
-          </div>
-          {/* slide line start  */}
-          <div className="para_cls">
-            <p className="para_one">
-              You might be a newcomer, but we are not- Our Mumbai Escorts Agency
-              has been in this wonderful venture of connecting call girls to
-              their lovers for more than a decade now. Your search for the right
-              Call girls Services in Mumbai will surely end here. Don’t worry-
-              We will give you enough reasons to become Bed partners with our
-              lovely and seductive Mumbai Escorts.
-            </p>
+              <p className="para_two">
+                Have you have ever witnessed the heart-throbbing delicacy of
+                Kamasutra positions? Or, do you know how it feels to be in bed
+                with your favorite Bollywood Star? Or, have you seen a naked
+                Catwalk from a VIP Model Escorts? If the answer to these
+                questions is a NO!! You are missing on life and adventure.
+              </p>
 
-            <p className="para_two">
-              Have you have ever witnessed the heart-throbbing delicacy of
-              Kamasutra positions? Or, do you know how it feels to be in bed
-              with your favorite Bollywood Star? Or, have you seen a naked
-              Catwalk from a VIP Model Escorts? If the answer to these questions
-              is a NO!! You are missing on life and adventure.
-            </p>
-
-            <p className="para_three">
-              But, don't worry, our Best Rated Escorts Agency in Mumbai is a
-              specialist in making our clients' fantasies and dreams true. Do
-              you know? We have a customer base of more than 15000+ in our
-              Mumbai Escort Services Agency.
-            </p>
-            <p className="para_three">
-              Our Mumbai Call Girls Service is one of the oldest and reputable
-              agencies in whole Mumbai. We are the best in the business for
-              multiple reasons. You will know all of them- Just hang on to our
-              website.
-            </p>
+              <p className="para_three">
+                But, don't worry, our Best Rated Escorts Agency in Mumbai is a
+                specialist in making our clients' fantasies and dreams true. Do
+                you know? We have a customer base of more than 15000+ in our
+                Mumbai Escort Services Agency.
+              </p>
+              <p className="para_three">
+                Our Mumbai Call Girls Service is one of the oldest and reputable
+                agencies in whole Mumbai. We are the best in the business for
+                multiple reasons. You will know all of them- Just hang on to our
+                website.
+              </p>
+            </div>
           </div>
         </div>
-
         <KamasutraPositions />
-
         <ProfileImages />
-
         <div className="home_new_sec">
           <div className="home_new_sec_left">
             <ButtonCategory />
@@ -147,18 +144,16 @@ export default function Home() {
             </p>
           </div>
         </div>
-
-        <div className="img_one">
+        <div className="img_one covid_rules_box">
           <StaticImage
-            src="https://www.rentadolls.net/images/call-directly-new.jpg"
+            src="../assets/images/covid-rules.jpg"
             alt="escorts mumbai"
             placeholder="blurred"
             layout="constrained"
+            className="covid_rules"
           />
         </div>
-
         <Covid />
-
         <div className="mini_container">
           <h2 className="new_head_style">
             Get your Favourite Mumbai Escorts on Bed with you within 25 Minutes
@@ -179,7 +174,6 @@ export default function Home() {
             our Mumbai Escorts organization will connect you with her.
           </p>
         </div>
-
         <div className="mini_container">
           <h2 className="new_head_style">
             Prime Tourist Location Call Girls Services- Our Escorts Services
@@ -204,7 +198,6 @@ export default function Home() {
             colorful.
           </p>
         </div>
-
         <div className="mini_container">
           <h2 className="new_head_style">
             Try Our Mumbai Escorts- Get Mumbai Escorts WhatsApp Number
@@ -224,9 +217,7 @@ export default function Home() {
             Can't get simpler than that.
           </p>
         </div>
-
         <LocationButton />
-
         <div className="img_gal_one mini_container">
           <StaticImage
             src="https://nearmeescorts.net/assets/img/banner/quote1.jpg"
@@ -257,7 +248,6 @@ export default function Home() {
             className="img_gal_one_image"
           />
         </div>
-
         <div className="mini_container">
           {/* slide line start  */}
           <div className="section-title">
@@ -267,7 +257,6 @@ export default function Home() {
           {/* slide line start  */}
         </div>
         <Reviews />
-
         <div className="mini_container">
           <h2 className="new_head_style">
             Visit Our Angels- Check our Mumbai Escort girls’ Photos
@@ -303,7 +292,6 @@ export default function Home() {
             Our image gallery of escorts is 100% genuine, and timely updated.
           </p>
         </div>
-
         {/* new sec start */}
         <div className="section about">
           <div className="section-center about-center">
@@ -342,7 +330,6 @@ export default function Home() {
           </div>
         </div>
         {/* new sec end  */}
-
         <div className="mini_container">
           <h2 className="new_head_style">
             Mumbai Special with the Best Escorts Services in Mumbai
@@ -408,7 +395,6 @@ export default function Home() {
             </li>
           </ul>
         </div>
-
         <div className="mini_container">
           {/* slide line start  */}
           <div className="section-title">
@@ -418,7 +404,6 @@ export default function Home() {
           {/* slide line start  */}
         </div>
         <Blog />
-
         <div className="mini_container">
           {/* slide line start  */}
           <div className="section-title">
@@ -457,7 +442,6 @@ export default function Home() {
             className="img_gal_one_image"
           />
         </div>
-
         {/* about sec start  */}
         <div className="mini_container">
           {/* slide line start  */}
@@ -467,7 +451,6 @@ export default function Home() {
           </div>
           {/* slide line start  */}
         </div>
-
         {/* new sec  */}
         <div className="section about">
           <div className="section-center about-center">
@@ -513,7 +496,6 @@ export default function Home() {
             </article>
           </div>
         </div>
-
         {/* new sec  */}
         <div className="section about">
           <div className="section-center about-center new_sec_right">
@@ -557,9 +539,7 @@ export default function Home() {
             </article>
           </div>
         </div>
-
         {/* about sec end  */}
-
         <div className="img_one">
           <StaticImage
             src="https://www.rentadolls.net/images/call-directly-new.jpg"
@@ -574,6 +554,9 @@ export default function Home() {
 }
 
 const Wrapper = styled.div`
+  .home_top_new {
+    background-color: #ed0101;
+  }
   .cat_tit {
     color: var(--headings);
     font-weight: bold;
@@ -605,7 +588,17 @@ const Wrapper = styled.div`
     display: grid !important;
     grid-template-columns: 1fr 1fr !important;
   }
+  .covid_rules {
+    border: 1px solid gold;
+  }
+  .covid_rules_box {
+    width: 60vw;
+    margin: 0px auto;
+  }
   @media (max-width: 720px) {
+    .covid_rules_box {
+      width: 95vw;
+    }
     .sexy_night {
       grid-template-columns: 1fr !important;
     }
