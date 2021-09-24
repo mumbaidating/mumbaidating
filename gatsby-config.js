@@ -15,7 +15,7 @@ module.exports = {
     description: "Best escorts in Mumbai",
     twitterUsername: `@john_smilga`,
     image: `/sexy-night.png`,
-    siteUrl: `https://mumbai-escorts.netlify.app`,
+    siteUrl: `https://www.mumbaidating.net/`,
   },
 
   plugins: [
@@ -61,7 +61,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        siteUrl: `https://mumbai-escorts.netlify.app`,
+        siteUrl: `https://www.mumbaidating.net/`,
       },
     },
     "gatsby-plugin-robots-txt",
