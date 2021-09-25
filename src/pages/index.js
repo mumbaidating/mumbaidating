@@ -44,25 +44,6 @@ export default function Home() {
       </div>
       <SimpleSlider />
 
-      {/* slide line start  */}
-      <div className="video_box">
-        <div className="video_left">
-          <StaticImage
-            src="../assets/images/new-ban-4.jpg"
-            alt="mumbai escorts blogs"
-            placeholder="blurred"
-            layout="constrained"
-            className="video_img home_video_img"
-          />
-        </div>
-        <div className="video_wrapper">
-          <video loop="true" autoplay="autoplay">
-            <source src={video} type="video/mp4" />
-          </video>
-        </div>
-      </div>
-      {/* video end  */}
-
       <div className="my_top_div">
         {/* slide line start  */}
         <div className="section-title">
