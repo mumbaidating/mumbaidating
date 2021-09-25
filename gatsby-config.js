@@ -13,7 +13,7 @@ module.exports = {
   siteMetadata: {
     title: "Mumbai Escorts",
     description: "Best escorts in Mumbai",
-    twitterUsername: `@john_smilga`,
+    twitterUsername: `@mumbaidating4u`,
     image: `/sexy-night.png`,
     siteUrl: `https://www.mumbaidating.net`,
   },
