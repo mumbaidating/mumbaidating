@@ -20,7 +20,6 @@ export default function Home() {
         title="Mumbai Escorts | Call Girls Mumbai | Most Trustable escorts Agency"
         description="Our Mumbai escorts agency is one of the most popular escort services which you can blindly trust on. We have top most attractive and sexy call girls Mumbai of your choice."
       />
-
       {/* <Wrapper> */}
       <div className="home_header_banner">
         <div className="desktop_banner">
@@ -43,7 +42,6 @@ export default function Home() {
         </div>
       </div>
       <SimpleSlider />
-
       <div className="my_top_div">
         {/* slide line start  */}
         <div className="section-title">
@@ -105,8 +103,16 @@ export default function Home() {
           </p>
         </div>
       </div>
-
       <KamasutraPositions />
+      {/* all-device.png */}
+      <div className="device_img">
+        <StaticImage
+          src="../assets/images/all-device.png"
+          alt="mumbai escorts website"
+          placeholder="blurred"
+          layout="constrained"
+        />
+      </div>
       <ProfileImages />
       <div className="home_new_sec">
         <div className="home_new_sec_left">

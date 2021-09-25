@@ -979,3 +979,8 @@ img:not(.nav-logo) {
   width: 90vw;
   margin: 0px auto;
 }
+.device_img {
+  margin: 20px auto;
+  display: block;
+  text-align: center;
+}
