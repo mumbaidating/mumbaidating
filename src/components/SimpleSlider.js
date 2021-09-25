@@ -117,6 +117,14 @@ const Wrapper = styled.div`
     color: black !important;
     background: yellow !important;
   }
+  @media only screen and (max-width: 425px) {
+    .rec-arrow-left {
+      display: none;
+    }
+    .rec-arrow-right {
+      display: none;
+    }
+  }
 `
 
 export default SimpleSlider
