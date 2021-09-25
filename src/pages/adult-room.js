@@ -79,6 +79,19 @@ const AdultRoom = () => {
             </video>
           </div>
         </div>
+
+        <div className="my_container">
+          <div className="vip_box">
+            <StaticImage
+              src="../assets/images/vip-badge.jpg"
+              alt="mumbai escorts"
+              placeholder="blurred"
+              layout="constrained"
+              className="video_img"
+            />
+          </div>
+        </div>
+
         {/* video end  */}
         <div className="home_new_sec">
           <div className="home_new_sec_left">
@@ -124,6 +137,15 @@ const AdultRoom = () => {
 }
 
 const Wrapper = styled.div`
+  .vip_box {
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .vip_box img {
+    border: 1px solid gold;
+  }
   .adult_room_one {
     background-color: #000;
     margin: 1%;

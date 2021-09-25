@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="top">
               <div className="logo-details">
                 <i className="fab fa-slack" />
-                <span className="logo_name">Mumbai Escorts</span>
+                <span className="logo_name">mumbaidating.net</span>
               </div>
               <div className="media-icons">
                 <a href="#">
@@ -76,31 +76,57 @@ const Footer = () => {
               <ul className="box">
                 <li className="link_name">Locations</li>
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link to="https://www.mumbaidating.net/location/andheri">
+                    Andheri
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/contact">Contact us</Link>
+                  <Link to="https://www.mumbaidating.net/location/bandra">
+                    Bandra
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/mumbai-escorts">Mumbai Escorts</Link>
+                  <Link to="https://www.mumbaidating.net/location/borivali">
+                    Borivali
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/mumbai-call-girls">Mumbai Call girl</Link>
+                  <Link to="https://www.mumbaidating.net/location/chembur">
+                    Chembur
+                  </Link>
+                </li>
+                <li>
+                  <Link to="https://www.mumbaidating.net/location/powai">
+                    Powai
+                  </Link>
                 </li>
               </ul>
               <ul className="box">
                 <li className="link_name">Categories</li>
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link to="https://www.mumbaidating.net/category/girlfriend-experience">
+                    Girlfriend Experience
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/contact">Contact us</Link>
+                  <Link to="https://www.mumbaidating.net/category/one-night-stand">
+                    One Night Stand
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/mumbai-escorts">Mumbai Escorts</Link>
+                  <Link to="https://www.mumbaidating.net/category/threesome">
+                    Threesome
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/mumbai-call-girls">Mumbai Call girl</Link>
+                  <Link to="https://www.mumbaidating.net/category/women-seeking-men">
+                    Women Seeking Men
+                  </Link>
+                </li>
+                <li>
+                  <Link to="https://www.mumbaidating.net/category/young-escorts">
+                    Young Escorts
+                  </Link>
                 </li>
               </ul>
 

@@ -10,57 +10,63 @@ const Reviews = () => {
           <li className="member">
             <div className="member-image">
               <StaticImage
-                src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/1.png"
+                src="../assets/images/rev-one.jpg"
                 alt="mumbai escorts"
                 placeholder="blurred"
                 layout="constrained"
               />
             </div>
             <div className="member-info">
-              <h3>Hazel Andrea</h3>
-              <p>Best Escort Website I ever Seen In my Life</p>
+              <h3>Akshay</h3>
+              <p>Booked One Girl, She is pretty, her lips are very sweet...</p>
             </div>
           </li>
           <li className="member">
             <div className="member-image">
               <StaticImage
-                src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/2.png"
+                src="../assets/images/review-two.jpg"
                 alt="mumbai escorts"
                 placeholder="blurred"
                 layout="constrained"
               />
             </div>
             <div className="member-info">
-              <h3>Lucas Edward</h3>
-              <p>Best Escort Website I ever Seen In my Life</p>
+              <h3>Mayank</h3>
+              <p>
+                Riya I will Never forget you in my life, your nude show is
+                Osm...
+              </p>
             </div>
           </li>
           <li className="member">
             <div className="member-image">
               <StaticImage
-                src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/3.png"
+                src="../assets/images/review-three.jpg"
                 alt="mumbai escorts"
                 placeholder="blurred"
                 layout="constrained"
               />
             </div>
             <div className="member-info">
-              <h3>Ella Piper</h3>
-              <p>Best Escort Website I ever Seen In my Life</p>
+              <h3>Udit</h3>
+              <p>Taken Onenight stand, Best Movements in my life...</p>
             </div>
           </li>
           <li className="member">
             <div className="member-image">
               <StaticImage
-                src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/4.png"
+                src="../assets/images/review-four.jpg"
                 alt="mumbai escorts"
                 placeholder="blurred"
                 layout="constrained"
               />
             </div>
             <div className="member-info">
-              <h3>Jaxon Mathew</h3>
-              <p>Best Escort Website I ever Seen In my Life</p>
+              <h3>Roshan</h3>
+              <p>
+                Taken Blow job service, It was fantastic esperience, girl have
+                osm Mouth...
+              </p>
             </div>
           </li>
         </ul>

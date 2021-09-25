@@ -3,6 +3,7 @@ import styled from "styled-components"
 import { graphql, Link, useStaticQuery } from "gatsby"
 import slugify from "slugify"
 import { FaRegHandPointRight } from "react-icons/fa"
+import { StaticImage } from "gatsby-plugin-image"
 
 const ButtonCategoryNew = graphql`
   {
@@ -40,12 +41,24 @@ const ButtonCategory = () => {
             )
           })}
         </ul>
+        <div className="whatsapp_box">
+          <StaticImage
+            src="../assets/images/whatsapp-new.png"
+            alt="mumbai escort service"
+            placeholder="blurred"
+            layout="constrained"
+            className="whatsapp_img"
+          />
+        </div>
       </div>
     </Wrapper>
   )
 }
 
 const Wrapper = styled.div`
+  .whatsapp_box {
+    width: 198px;
+  }
   margin: 0px auto;
   .cat {
     font-size: 1.6em;

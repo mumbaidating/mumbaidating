@@ -51,13 +51,24 @@ const Covid = () => {
             <p>
               We all know how badly the Covid pandemic has messed up our brains.
               But why should a pandemic restrain you from enjoying the true
-              bodily pleasure of lovemaking? Our Mumbai Escorts understand the
-              concerns of our clients, the reason why we take 10+ health
-              precautions in our Mumbai Escorts Agency. Our Mumbai Escorts
-              service doesn't believe in ordinary call girls services, we go a
-              step ahead and provide 11+ additional benefits to our clients for
-              free. Here is how we make our VIP Call Services in Mumbai a
-              memorable one for our VIP Clients.
+              bodily pleasure of lovemaking? Our{" "}
+              <a className="a_color" href="https://www.mumbaidating.net/">
+                {" "}
+                Mumbai Escort{" "}
+              </a>{" "}
+              understand the concerns of our clients, the reason why we take 10+
+              health precautions in our <b> Mumbai Escorts Agency </b>. Our
+              Mumbai Escorts service doesn't believe in ordinary call girls
+              services, we go a step ahead and provide 11+ additional benefits
+              to our clients for free. Here is how we make our{" "}
+              <a
+                className="a_color"
+                href="https://www.mumbaidating.net/mumbai-call-girls"
+              >
+                {" "}
+                VIP Call girl Services in Mumbai
+              </a>{" "}
+              a memorable one for our VIP Clients.
             </p>
             <ul>
               <li>
