@@ -23,10 +23,10 @@ const Footer = () => {
                 <a href="#">
                   <FaFacebookF className="fab fa-facebook-f" />
                 </a>
-                <a href="#">
+                <a href="https://twitter.com/mumbaidating4u">
                   <AiOutlineTwitter className="fab fa-twitter" />{" "}
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/mumbaidating4u/">
                   <FaInstagram className="fab fa-instagram" />{" "}
                 </a>
                 <a href="#">

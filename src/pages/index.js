@@ -23,7 +23,7 @@ export default function Home() {
         <div className="home_header_banner">
           <div className="desktop_banner">
             <StaticImage
-              src="../assets/images/best-mumbai-escorts.jpg"
+              src="../assets/images/mumbaidating-desktop.jpg"
               alt="mumbai escorts"
               placeholder="blurred"
               layout="constrained"
@@ -32,7 +32,7 @@ export default function Home() {
           </div>
           <div className="mobile_banner">
             <StaticImage
-              src="../assets/images/best-mumbai-escort-mobile-banner.jpg"
+              src="../assets/images/mumbai-dating-mobile.jpg"
               alt="mumbai escort service"
               placeholder="blurred"
               layout="constrained"
