@@ -21,72 +21,72 @@ const SimpleSlider = () => {
             autoPlaySpeed={1500}
           >
             <StaticImage
-              src="https://www.selectmumbaigirl.com/images/top/mumbai-sexy-girls.jpg"
-              alt="escorts mumbai"
+              src="../assets/images/slider/anal-sex.jpg"
+              alt="Mumbai escorts anal sex"
               placeholder="blurred"
               layout="constrained"
               className="img_slider"
             />
 
             <StaticImage
-              src="https://www.selectmumbaigirl.com/images/top/russian-escorts-in-mumbai.jpg"
-              alt="escorts mumbai"
+              src="../assets/images/slider/cheaprate-escorts.jpg"
+              alt="cheaprate mumbai escorts"
               placeholder="blurred"
               layout="constrained"
               className="img_slider"
             />
             <StaticImage
-              src="https://www.selectmumbaigirl.com/images/top/advanced-bookings.jpg"
-              alt="escorts mumbai"
+              src="../assets/images/slider/girls-mobile-number.jpg"
+              alt="mumbai escorts mobile number"
               placeholder="blurred"
               layout="constrained"
               className="img_slider"
             />
             <StaticImage
-              src="https://www.selectmumbaigirl.com/images/top/specialoffers.jpg"
-              alt="escorts mumbai"
+              src="../assets/images/slider/girls-whatsapp-number.jpg"
+              alt="mumbai escorts whatsapp number"
               placeholder="blurred"
               layout="constrained"
               className="img_slider"
             />
             <StaticImage
-              src="https://www.selectmumbaigirl.com/images/top/escorts-ranking.jpg"
-              alt="escorts mumbai"
+              src="../assets/images/slider/housewife-escorts.jpg"
+              alt="mumbai housewife escorts"
               placeholder="blurred"
               layout="constrained"
               className="img_slider"
             />
             <StaticImage
-              src="https://www.selectmumbaigirl.com/images/top/mumbai-sexy-girls.jpg"
-              alt="escorts mumbai"
+              src="../assets/images/slider/mumbai-randis.jpg"
+              alt="Mumbai escorts randi"
               placeholder="blurred"
               layout="constrained"
               className="img_slider"
             />
             <StaticImage
-              src="https://www.selectmumbaigirl.com/images/top/russian-escorts-in-mumbai.jpg"
-              alt="escorts mumbai"
+              src="../assets/images/slider/phone-sex-mumbai.jpg"
+              alt="phone sex mumbai escorts"
               placeholder="blurred"
               layout="constrained"
               className="img_slider"
             />
             <StaticImage
-              src="https://www.selectmumbaigirl.com/images/top/advanced-bookings.jpg"
-              alt="escorts mumbai"
+              src="../assets/images/slider/sex-massage-in-bangalore.jpg"
+              alt="sex massage mumbai escorts"
               placeholder="blurred"
               layout="constrained"
               className="img_slider"
             />
             <StaticImage
-              src="https://www.selectmumbaigirl.com/images/top/specialoffers.jpg"
-              alt="escorts mumbai"
+              src="../assets/images/slider/sex-workers.jpg"
+              alt="sex workers mumbai"
               placeholder="blurred"
               layout="constrained"
               className="img_slider"
             />
             <StaticImage
-              src="https://www.selectmumbaigirl.com/images/top/escorts-ranking.jpg"
-              alt="escorts mumbai"
+              src="../assets/images/slider/sexy-aunty-number.jpg"
+              alt="sexy aunty number"
               placeholder="blurred"
               layout="constrained"
               className="img_slider"
