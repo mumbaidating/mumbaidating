@@ -41,69 +41,69 @@ export default function Home() {
           </div>
         </div>
         <SimpleSlider />
-        <div className="home_top_new">
-          <div className="home_top">
-            {/* slide line start  */}
-            <div className="section-title">
-              <h1 className="section_title_main">
-                Open the Kamasutra Gateway- A Warm Welcome from the Best Mumbai
-                Escorts
-              </h1>
-              <div className="bar"></div>
-            </div>
-            {/* slide line start  */}
-            <div className="paras_box">
-              <p>
-                You might be a newcomer, but we are not- Our{" "}
-                <a className="a_color" href="https://www.mumbaidating.net/">
-                  Mumbai Escorts
-                </a>{" "}
-                Agency has been in this wonderful venture of connecting call
-                girls to their lovers for more than a decade now. Your search
-                for the right{" "}
-                <a
-                  className="a_color"
-                  href="https://www.mumbaidating.net/mumbai-call-girls"
-                >
-                  Call girls Services in Mumbai
-                </a>{" "}
-                will surely end here. Don’t worry- We will give you enough
-                reasons to become Bed partners with our lovely and seductive{" "}
-                <b>Mumbai Escorts</b>.
-              </p>
 
-              <p>
-                Have you have ever witnessed the heart-throbbing delicacy of
-                Kamasutra positions? Or, do you know how it feels to be in bed
-                with your favorite Bollywood Star? Or, have you seen a naked
-                Catwalk from a <b>VIP Model Escorts</b> ? If the answer to these
-                questions is a NO!! You are missing on life and adventure.
-              </p>
+        <div className="my_top_div">
+          {/* slide line start  */}
+          <div className="section-title">
+            <h1 className="section_title_main">
+              Open the Kamasutra Gateway- A Warm Welcome from the Best Mumbai
+              Escorts
+            </h1>
+            <div className="bar"></div>
+          </div>
+          {/* slide line start  */}
+          <div className="paras_box">
+            <p>
+              You might be a newcomer, but we are not- Our{" "}
+              <a className="a_color" href="https://www.mumbaidating.net/">
+                Mumbai Escorts
+              </a>{" "}
+              Agency has been in this wonderful venture of connecting call girls
+              to their lovers for more than a decade now. Your search for the
+              right{" "}
+              <a
+                className="a_color"
+                href="https://www.mumbaidating.net/mumbai-call-girls"
+              >
+                Call girls Services in Mumbai
+              </a>{" "}
+              will surely end here. Don’t worry- We will give you enough reasons
+              to become Bed partners with our lovely and seductive{" "}
+              <b>Mumbai Escorts</b>.
+            </p>
 
-              <p>
-                But, don't worry, our Best Rated{" "}
-                <a className="a_color" href="https://www.mumbaidating.net/">
-                  Escorts Agency in Mumbai
-                </a>{" "}
-                is a specialist in making our clients' fantasies and dreams
-                true. Do you know? We have a customer base of more than 15000+
-                in our Mumbai Escort Services Agency.
-              </p>
-              <p>
-                Our{" "}
-                <a
-                  className="a_color"
-                  href="https://www.mumbaidating.net/mumbai-call-girls"
-                >
-                  Mumbai Call Girls Service
-                </a>{" "}
-                is one of the oldest and reputable agencies in whole Mumbai. We
-                are the best in the business for multiple reasons. You will know
-                all of them- Just hang on to our website.
-              </p>
-            </div>
+            <p>
+              Have you have ever witnessed the heart-throbbing delicacy of
+              Kamasutra positions? Or, do you know how it feels to be in bed
+              with your favorite Bollywood Star? Or, have you seen a naked
+              Catwalk from a <b>VIP Model Escorts</b> ? If the answer to these
+              questions is a NO!! You are missing on life and adventure.
+            </p>
+
+            <p>
+              But, don't worry, our Best Rated{" "}
+              <a className="a_color" href="https://www.mumbaidating.net/">
+                Escorts Agency in Mumbai
+              </a>{" "}
+              is a specialist in making our clients' fantasies and dreams true.
+              Do you know? We have a customer base of more than 15000+ in our
+              Mumbai Escort Services Agency.
+            </p>
+            <p>
+              Our{" "}
+              <a
+                className="a_color"
+                href="https://www.mumbaidating.net/mumbai-call-girls"
+              >
+                Mumbai Call Girls Service
+              </a>{" "}
+              is one of the oldest and reputable agencies in whole Mumbai. We
+              are the best in the business for multiple reasons. You will know
+              all of them- Just hang on to our website.
+            </p>
           </div>
         </div>
+
         <KamasutraPositions />
         <ProfileImages />
         <div className="home_new_sec">
@@ -804,5 +804,9 @@ const Wrapper = styled.div`
     .mobile_banner {
       display: none;
     }
+  }
+  .my_top_div {
+    width: 90vw;
+    margin: 0px auto;
   }
 `
