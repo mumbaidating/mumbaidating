@@ -52,8 +52,8 @@ const Faq = () => {
             </div>
             <div className="new_faq_right">
               <StaticImage
-                src="https://www.andheriescorts.net/images/faq.png"
-                alt="mumbai escorts"
+                src="../assets/images/faq.jpg"
+                alt="mumbai call girl service"
                 placeholder="blurred"
                 layout="constrained"
               />
@@ -64,8 +64,8 @@ const Faq = () => {
         <div className="video_box">
           <div className="video_left">
             <StaticImage
-              src="https://nearmeescorts.net/assets/img/banner/quote2.jpg"
-              alt="mumbai escorts"
+              src="../assets/images/new-ban-1.jpg"
+              alt="mumbai escorts faq"
               placeholder="blurred"
               layout="constrained"
               className="video_img"

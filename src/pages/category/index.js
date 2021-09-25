@@ -38,8 +38,8 @@ const Index = () => {
         <div className="video_box">
           <div className="video_left">
             <StaticImage
-              src="https://nearmeescorts.net/assets/img/banner/quote2.jpg"
-              alt="mumbai escorts"
+              src="../assets/images/quote3.jpg"
+              alt="mumbai escorts categories"
               placeholder="blurred"
               layout="constrained"
               className="video_img"
@@ -60,30 +60,37 @@ const Index = () => {
           </div>
           {/* slide line start  */}
           <p className="text_left">
-            We at Mumbai Escorts have a variety of escorts that are willing to
-            show their skills in any category. All Mumbai escorts call girls are
-            the category from our agency comes highly discounted, and we can
-            still provide the best service.
+            We at{" "}
+            <a href="https://www.mumbaidating.net/" className="a_color">
+              Mumbai Escorts
+            </a>{" "}
+            have a variety of escorts that are willing to show their skills in
+            any category. All Mumbai escorts & call girls are the category from
+            our agency comes highly discounted, and we can still provide the
+            best service.
           </p>
           <p className="text_left">
             If you're looking for something specific or want to know how
-            discreetly an elite escort company operates just contact us now! At
-            MUMBAI ESCORTS CATEGORY we welcome everyone interested in taking
-            advantage of what we offer!!! If you're looking for a high-end
-            experience, look no further than our escorts in Mumbai. They are
-            here to please your every need and desire - from the most basic
-            needs of companionship to more exotic desires like BDSM or fetish
-            play that we have many experts on board with us. What's stopping
-            you?
+            discreetly an elite escort company operates just contact us now! At{" "}
+            <a href="https://www.mumbaidating.net/category" className="a_color">
+              Mumbai Escorts Category
+            </a>{" "}
+            we welcome everyone interested in taking advantage of what we
+            offer!!! If you're looking for a high-end experience, look no
+            further than our <strong>escorts in Mumbai</strong>. They are here
+            to please your every need and desire - from the most basic needs of
+            companionship to more exotic desires like BDSM or fetish play that
+            we have many experts on board with us. What's stopping you?
           </p>
           <p className="text_left">
             We welcome all potential clients who want an unforgettable time when
-            they hire one of our MUMBAI ESCORTS CATEGORY girls because it is
-            what they do best! Each girl caters to their services based on
-            personal preferences so there will always be someone perfect for
-            whatever service suits your tastes best at any given moment, you'll
-            never be disappointed you’re guaranteed the best with our high-end
-            escorts and exclusive girls for your ultimate pleasure!
+            they hire one of our <strong>Mumbai Escorts Category</strong> girls
+            because it is what they do best! Each girl caters to their services
+            based on personal preferences so there will always be someone
+            perfect for whatever service suits your tastes best at any given
+            moment, you'll never be disappointed you’re guaranteed the best with
+            our <strong>high-end escorts</strong> and exclusive girls for your
+            ultimate pleasure!
           </p>
         </div>
 

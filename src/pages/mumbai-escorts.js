@@ -20,8 +20,8 @@ const Mumbaiescorts = () => {
         <div className="video_box">
           <div className="video_left">
             <StaticImage
-              src="https://nearmeescorts.net/assets/img/banner/quote2.jpg"
-              alt="mumbai escorts"
+              src="../assets/images/quote1.jpg"
+              alt="mumbai escort service"
               placeholder="blurred"
               layout="constrained"
               className="video_img"
@@ -45,19 +45,23 @@ const Mumbaiescorts = () => {
           </div>
           {/* slide line start  */}
           <p className="text_left">
-            Mumbai escorts are one of the best escorts in the nation of India we
-            provide high-class service at affordable charges. We take into
-            account the wishes of each individual client and select a girl for a
-            VIP escorting based on the chosen parameters according to the
-            client's choice.
+            <a href="https://www.mumbaidating.net/" className="a_color">
+              Mumbai escorts
+            </a>{" "}
+            are one of the best escorts in the nation of India we provide
+            high-class service at affordable charges. We take into account the
+            wishes of each individual client and select a girl for a VIP
+            escorting based on the chosen parameters according to the client's
+            choice.
           </p>
 
           <p className="text_left">
             We understand that each client has their own individual preferences
-            and desires. Our carefully selected team of VIP escorts in Mumbai
-            offers a variety of models catering to many tastes, including mature
-            ladies with the busty figure you desire or teenage girls who are new
-            on the scene but eager for your company.
+            and desires. Our carefully selected team of{" "}
+            <b>VIP escorts in Mumbai</b> offers a variety of models catering to
+            many tastes, including mature ladies with the busty figure you
+            desire or teenage girls who are new on the scene but eager for your
+            company.
           </p>
 
           <p className="text_left">
@@ -70,10 +74,10 @@ const Mumbaiescorts = () => {
           </p>
           <p className="text_left">
             We are all about you and your satisfaction too. We want to make sure
-            that our Mumbai escorts provide the best possible companionship for
-            when you're looking for a discreet night out with friends or just
-            wanting to get away from it all, whether as an individual or in the
-            company!
+            that our <strong>Mumbai escorts</strong> provide the best possible
+            companionship for when you're looking for a discreet night out with
+            friends or just wanting to get away from it all, whether as an
+            individual or in the company!
           </p>
         </div>
 
@@ -85,6 +89,9 @@ const Mumbaiescorts = () => {
 }
 
 const Wrapper = styled.div`
+  .video_img {
+    box-shadow: 0 0 4px 4px #ecd113cc;
+  }
   .home_top {
     width: 80vw;
     margin: 0px auto;

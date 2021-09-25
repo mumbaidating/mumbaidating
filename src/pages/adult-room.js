@@ -46,28 +46,37 @@ const AdultRoom = () => {
           <p>
             Spare some time away from the business of your day and come spend it
             here! Tired of being alone in the bedroom? Join us for some adult
-            fun! At our Mumbai escort service room, you'll be able to enjoy a
-            little extra spice with your partner as well as call girl and get it
-            on with someone new with all the action. The sex in our private
-            adult room is fun for anyone looking to enjoy a little time together
-            with their partner.
+            fun! At our{" "}
+            <a
+              href="https://www.mumbaidating.net/adult-room"
+              className="a_color"
+            >
+              Mumbai escort service room
+            </a>{" "}
+            , you'll be able to enjoy a little extra spice with your partner as
+            well as call girl and get it on with someone new with all the
+            action. The sex in our private adult room is fun for anyone looking
+            to enjoy a little time together with their partner.
           </p>
 
           <p>
-            I am a Mumbai escort service who offers romantic activities in the
-            adult room. Will you spend some time with me on an erotic plan? I'm
-            here to be your destination if you're looking for something more
-            than just sex - I can give it all up and enjoy myself right
-            alongside you, or we could take things nice and slow together. And
-            can be experienced with the adult room.
+            I am a{" "}
+            <a href="https://www.mumbaidating.net/" className="a_color">
+              Mumbai escort service
+            </a>{" "}
+            who offers romantic activities in the adult room. Will you spend
+            some time with me on an erotic plan? I'm here to be your destination
+            if you're looking for something more than just sex - I can give it
+            all up and enjoy myself right alongside you, or we could take things
+            nice and slow together. And can be experienced with the adult room.
           </p>
         </div>
         {/* video start  */}
         <div className="video_box">
           <div className="video_left">
             <StaticImage
-              src="https://nearmeescorts.net/assets/img/banner/quote2.jpg"
-              alt="mumbai escorts"
+              src="../assets/images/new-ban-2.jpg"
+              alt="mumbai escorts Adult room"
               placeholder="blurred"
               layout="constrained"
               className="video_img"

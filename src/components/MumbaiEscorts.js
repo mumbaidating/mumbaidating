@@ -40,9 +40,11 @@ const MumbaiEscorts = () => {
           const slug = slugify(name, { lower: true })
           return (
             <article className="postcard blue" key={id}>
-              <Link className="postcard__img_link" to={`/profile/${slug}`}>
-                <GatsbyImage image={pathToImg} alt={altTag} />
-              </Link>
+              <div className="img_me">
+                <Link className="postcard__img_link" to={`/profile/${slug}`}>
+                  <GatsbyImage image={pathToImg} alt={altTag} />
+                </Link>
+              </div>
               <div className="postcard__text">
                 <h2 className="postcard__title blue text-center home_heading">
                   <Link to={`/profile/${slug}`}>
@@ -80,6 +82,9 @@ const MumbaiEscorts = () => {
 }
 
 const Wrapper = styled.div`
+  .img_me {
+    margin: 0px auto;
+  }
   .container {
     padding: 0px 0px;
   }

@@ -32,8 +32,8 @@ const Price = () => {
         <div className="video_box">
           <div className="video_left">
             <StaticImage
-              src="https://nearmeescorts.net/assets/img/banner/quote2.jpg"
-              alt="mumbai escorts"
+              src="../assets/images/new-ban-3.jpg"
+              alt="mumbai escorts price"
               placeholder="blurred"
               layout="constrained"
               className="video_img"

@@ -46,8 +46,11 @@ const Index = () => {
           <p className="text_left">
             What if the men at your next party were fixated on you, not only
             because of what they see but also for who you are? It's a dream that
-            can come true! You will be able to find the stunning model with our
-            escort service in Mumbai. Visit to our location whenever you needed.
+            can come true! You will be able to find the stunning model with our{" "}
+            <a href="https://www.mumbaidating.net/" className="a_color">
+              escort service in Mumbai
+            </a>
+            . Visit to our location whenever you needed.
           </p>
 
           <p className="text_left">
@@ -62,19 +65,23 @@ const Index = () => {
             will not leave indifferent any man.
           </p>
           <p className="text_left">
-            You will be spoiled for choice with this high class escort agency in
-            our location! They have an enormous collection of the world’s most
-            beautiful and exotic girls. Choose a girl from their profile gallery
-            to get started, all photos are real - in person these models look
-            even more stunning than they do on camera!
+            You will be spoiled for choice with this{" "}
+            <b>high class escort agency</b> in our{" "}
+            <a href="https://www.mumbaidating.net/location" className="a_color">
+              Mumbai location!
+            </a>{" "}
+            They have an enormous collection of the world’s most beautiful and
+            exotic girls. Choose a girl from their profile gallery to get
+            started, all photos are real - in person these models look even more
+            stunning than they do on camera!
           </p>
         </div>
         {/* video start  */}
         <div className="video_box">
           <div className="video_left">
             <StaticImage
-              src="https://nearmeescorts.net/assets/img/banner/quote2.jpg"
-              alt="mumbai escorts"
+              src="../assets/images/quote4.jpg"
+              alt="mumbai escorts locations"
               placeholder="blurred"
               layout="constrained"
               className="video_img"

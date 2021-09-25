@@ -52,7 +52,7 @@ export default function Home() {
               <div className="bar"></div>
             </div>
             {/* slide line start  */}
-            <div>
+            <div className="paras_box">
               <p>
                 You might be a newcomer, but we are not- Our{" "}
                 <a className="a_color" href="https://www.mumbaidating.net/">
@@ -690,6 +690,7 @@ const Wrapper = styled.div`
   }
   .img_gal_one_image {
     margin: 1%;
+    /* box-shadow: 0 0 4px 4px #ecd113cc; */
   }
   @media only screen and (max-width: 1100px) {
     .img_gal_one {
@@ -760,6 +761,9 @@ const Wrapper = styled.div`
   }
   .img_gal_one_image {
     border-left: 1px solid gold;
+  }
+  .paras_box > p {
+    text-align: left;
   }
   @media only screen and (max-width: 1100px) {
     .home_new_sec {

@@ -780,3 +780,6 @@ img:not(.nav-logo) {
 .a_color {
   color: gold;
 }
+.video_img {
+  box-shadow: 0 0 4px 4px #ecd113cc;
+}

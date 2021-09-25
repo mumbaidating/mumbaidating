@@ -20,8 +20,8 @@ const Mumbaicallgirls = () => {
         <div className="video_box">
           <div className="video_left">
             <StaticImage
-              src="https://nearmeescorts.net/assets/img/banner/quote2.jpg"
-              alt="mumbai escorts"
+              src="../assets/images/quote2.jpg"
+              alt="Mumbai call girls"
               placeholder="blurred"
               layout="constrained"
               className="video_img"
@@ -45,11 +45,18 @@ const Mumbaicallgirls = () => {
           </div>
           {/* slide line start  */}
           <p className="text_left">
-            At Mumbai Call Girl Gallery we offer the highest quality adult
-            companionship to discerning gentlemen in India with our vetted
-            selection of gorgeous girls who are more than happy to indulge your
-            wildest fantasies! The pleasure of a night with one of our beautiful
-            escorts is something that you will want to experience for yourself.
+            At{" "}
+            <a
+              href="https://www.mumbaidating.net/mumbai-call-girls"
+              className="a_color"
+            >
+              Mumbai Call Girl
+            </a>{" "}
+            Gallery we offer the highest quality adult companionship to
+            discerning gentlemen in India with our vetted selection of gorgeous
+            girls who are more than happy to indulge your wildest fantasies! The
+            pleasure of a night with one of our beautiful escorts is something
+            that you will want to experience for yourself.
           </p>
 
           <p className="text_left">
@@ -61,10 +68,13 @@ const Mumbaicallgirls = () => {
           </p>
 
           <p className="text_left">
-            Escort Service in Mumbai prefers customer desire. Our service is
-            affordable because of this. The client has only hot call girls in
-            Mumbai at our place for enjoying with comfortability. You can also
-            enjoy the service in the hotel where the clients are staying.
+            <a href="https://www.mumbaidating.net/" className="a_color">
+              Escort Service in Mumbai
+            </a>{" "}
+            prefers customer desire. Our service is affordable because of this.
+            The client has only hot call girls in Mumbai at our place for
+            enjoying with comfortability. You can also enjoy the service in the
+            hotel where the clients are staying.
           </p>
         </div>
 
@@ -161,10 +171,12 @@ const Mumbaicallgirls = () => {
         <div className="section about">
           <div className="section-center about-center">
             <article className="about-img">
-              <img
-                src="https://mumbaibabes.net/img1/callgirlservicemobile.jpg"
+              <StaticImage
+                src="../assets/images/sexy-callgirl-one.jpg"
+                alt="mumbai escorts nearme"
+                placeholder="blurred"
+                layout="constrained"
                 className="hero-photo"
-                alt="about img"
               />
             </article>
             <article className="about-info">
@@ -175,9 +187,13 @@ const Mumbaicallgirls = () => {
               <p className="text_left">
                 Our call girls are diverse and choose from a wide range of
                 personalities, allowing customers to stay up all night with
-                their choice. Our Mumbai escort services can be booked online
-                through the company's website. We provide a variety of photos of
-                call girls on our website for the customer's view.
+                their choice. Our{" "}
+                <a href="http://localhost:8000/" className="a_color">
+                  Mumbai escort services
+                </a>{" "}
+                can be booked online through the company's website. We provide a
+                variety of photos of call girls on our website for the
+                customer's view.
               </p>
 
               <p className="text_left">
@@ -186,8 +202,8 @@ const Mumbaicallgirls = () => {
                 customer satisfaction and fulfill their needs. Without any
                 hidden fees, we provide our service at your doorstep.
               </p>
-              <a href="#" className="btn">
-                about me
+              <a href="https://www.mumbaidating.net/contact" className="btn">
+                Contact Us
               </a>
             </article>
           </div>
@@ -201,6 +217,9 @@ const Mumbaicallgirls = () => {
 }
 
 const Wrapper = styled.div`
+  .video_img {
+    box-shadow: 0 0 4px 4px #ecd113cc;
+  }
   /* about sec start */
   /* about sec end */
   /* .review_heading {
