@@ -6,6 +6,7 @@ import { FaInstagram } from "react-icons/fa"
 import { FaLinkedinIn } from "react-icons/fa"
 import { AiFillYoutube } from "react-icons/ai"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Footer = () => {
   return (
@@ -141,13 +142,22 @@ const Footer = () => {
               </ul>
             </div>
           </div>
+
           <div className="bottom-details">
             <div className="bottom_text">
               <span className="copyright_text">
                 Copyright © {new Date().getUTCFullYear()} <a href="#">Logo.</a>
                 All rights reserved
               </span>
-
+              <Link to="/">
+                <StaticImage
+                  src="../assets/images/mumbai-dating.png"
+                  alt="mumbai escorts"
+                  placeholder="blurred"
+                  layout="constrained"
+                  className="footer_logo"
+                />
+              </Link>
               <span className="policy_terms">
                 <Link to="/">Privacy policy</Link>
                 <Link to="/">Terms &amp; condition</Link>
@@ -161,6 +171,9 @@ const Footer = () => {
 }
 
 const Wrapper = styled.div`
+  .footer_logo {
+    width: 250px;
+  }
   footer {
     background: var(--footer-bg);
     width: 100%;

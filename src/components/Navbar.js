@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="nav-header">
           <Link to="/">
             <StaticImage
-              src="../assets/images/logo.png"
+              src="../assets/images/mumbai-dating.png"
               alt="mumbai escorts"
               placeholder="blurred"
               layout="constrained"
