@@ -34,6 +34,15 @@ const Index = () => {
         description="Get the call girl service at your doorstep within 25min of booking. We deliver Female escorts & Call girls in almost all location on Mumbai like Andheri, Bandra, Borivali, Chembur, etc."
       />
       <Wrapper>
+      <div className="top_banner_new">
+          <StaticImage
+              src="../../assets/images/location.jpg"
+              alt="Mumbai escort location"
+              placeholder="blurred"
+              layout="constrained"
+              className="top_img"
+            />
+          </div>
         <div className="loc_heading">
           {/* slide line start  */}
           <div className="section-title">

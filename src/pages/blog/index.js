@@ -15,6 +15,15 @@ const index = () => {
         />
 
         <Wrapper>
+        <div className="top_banner_new">
+          <StaticImage
+              src="../../assets/images/blog.jpg"
+              alt="Mumbai escort Faq"
+              placeholder="blurred"
+              layout="constrained"
+              className="top_img"
+            />
+          </div>
           {/* video start  */}
           {/* slide line start  */}
           <div className="section-title">

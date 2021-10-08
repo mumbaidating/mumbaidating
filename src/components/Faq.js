@@ -26,6 +26,15 @@ const Faq = () => {
   return (
     <Layout>
       <Wrapper>
+      <div className="top_banner_new">
+          <StaticImage
+              src="../assets/images/faq-top.jpg"
+              alt="Mumbai escort Faq"
+              placeholder="blurred"
+              layout="constrained"
+              className="top_img"
+            />
+          </div>
         <div className="mini_container">
           {/* slide line start  */}
           <div className="section-title">

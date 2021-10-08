@@ -33,6 +33,15 @@ const AdultRoom = () => {
         description="We have listed top most premium hotels and rooms for your erotic experience with our Female escorts & Call girls Mumbai. Book now to avail the service."
       />
       <Wrapper>
+      <div className="top_banner_new">
+          <StaticImage
+              src="../assets/images/adult-room.jpg"
+              alt="Mumbai escort Adult room"
+              placeholder="blurred"
+              layout="constrained"
+              className="top_img"
+            />
+          </div>
         <div className="home_top mini_container">
           {/* slide line start  */}
           <div className="section-title">

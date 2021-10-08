@@ -11,6 +11,7 @@ import SEO from "../components/SEO"
 import Covid from "../components/Covid"
 import KamasutraPositions from "../components/KamasutraPositions"
 import SimpleSlider from "../components/SimpleSlider"
+// import { Link } from "gatsby"
 
 export default function Home() {
   return (
@@ -156,7 +157,7 @@ export default function Home() {
             </p>
 
             <p>
-              Do you know we have 12+ active Bollywood Celebrity Escorts in our
+              Do you know we have 12+ active <a href="https://www.mumbaidating.net/" className="a_color">mumbai independent escorts</a> in our
               Mumbai Escorts Agency? And, what about the hot and sizzling Mumbai
               TV Actresses Call girls? We have it all Contact Us for More
               details.
@@ -168,16 +169,15 @@ export default function Home() {
             </h2>
             <p>
               You would have already got a brief idea about our connection and
-              wide range of astonishing <b> Mumbai call girls </b> in our best
-              Escort Agency. To this list, we have added a new & Special Escorts
+              wide range of astonishing <a href="https://www.mumbaidating.net/" className="a_color">escort service in mumbai</a>. To this list, we have added a new & Special Escorts
               category specially for our VIP Clients. For our VIP Escort
-              Clients, we have recently inducted Miss India Models into our Call
-              girl Services.
+              Clients, we have recently inducted Miss India Models into our <b>Call
+              girl Services</b>.
             </p>
             <p>
               From Miss India Top Models to Runner-up’s- We have included this
               new and fresh Premium VIP Miss India{" "}
-              <strong> Escorts Services in Mumbai </strong>. We are the first
+              <a href="https://www.mumbaidating.net/" className="a_color">mumbai escorts service</a>. We are the first
               and only one to provide these <b> VIP call girls in Mumbai </b>.
               Think of the fun, when a Miss India Model Escort will do a naked
               Catwalk in front of you? And, what about the seductive
@@ -225,9 +225,9 @@ export default function Home() {
             Location in Mumbai
           </h2>
           <p>
-            We are the Uber and Ola of the Call girls Service in Mumbai- Our
-            Mumbai Escorts operate in the nook and corners of Mumbai. Our
-            clients call us the Best Escorts in Mumbai because of the reason, we
+            We are the Uber and Ola of the <b>Call girls Service in Mumbai</b> - Our {""}
+           <a href="https://www.mumbaidating.net/" className="a_color">mumbai escort service</a> operate in the nook and corners of Mumbai. Our
+            clients call us the Best <b></b> because of the reason, we
             even provide Safe & Secure Call girls Services 24*7 to even the
             remotest and busiest part of Mumbai. We aren't any other Escorts
             agency in Mumbai, we operate for VIP Clients including Mumbai
@@ -238,8 +238,8 @@ export default function Home() {
             our clients as a King. We allow both in-hotel and Outcalling escorts
             services in Mumbai. Our Prime Escorts Locations include Andheri,
             Goregaon, Juhu, Bandra, Borivali, Kurla, Parel, Navi Mumbai,
-            Chembur, Nerul, Worli, Powai, etc. Be it any location in Mumbai, our
-            female escorts in Mumbai are always available to make your Nights
+            Chembur, Nerul, Worli, Powai, etc. Be it any location in Mumbai, our {""}
+            <a href="https://www.mumbaidating.net/" className="a_color">female escorts in Mumbai</a> are always available to make your Nights
             colorful.
           </p>
         </div>
@@ -248,8 +248,8 @@ export default function Home() {
             Try Our Mumbai Escorts- Get Mumbai Escorts WhatsApp Number
           </h2>
           <p>
-            Let the fun begin, why just choose when you can first talk on our
-            Call Girl WhatsApp Number. Our female Escorts Services don't end
+            Let the fun begin, why just choose when you can first talk on our {""}
+            <a href="https://www.mumbaidating.net/" className="a_color">Mumbai Call Girl WhatsApp Number</a>. Our female Escorts Services don't end
             here- we provide free Escorts WhatsApp Photos, Call Girls Video
             Calling, WhatsApp Video Calling, WhatsApp Video Call Sex, Model
             Escorts Live Cam & Much more, just at a single click.
@@ -337,12 +337,17 @@ export default function Home() {
             much more.
           </p>
           <p>
-            All you need is to go to our <b> Mumbai Escorts </b> Photos page on
+            All you need is to go to our <a href="https://www.mumbaidating.net/" className="a_color">Mumbai Escort</a> Photos page on
             our Gallery and explore the fun with the real-time call girls’
             images. Our image gallery of escorts is 100% genuine, and timely
             updated.
           </p>
         </div>
+
+        {/* tabs sec start  */}
+        {/* <Tabs /> */}
+        {/* tabs sec end  */}
+
         {/* new sec start */}
         <div className="section about">
           <div className="section-center about-center">
@@ -357,7 +362,7 @@ export default function Home() {
               <p>
                 India is a diverse country- so is our Mumbai Escorts Agency. We
                 strongly believe in providing first-class diverse{" "}
-                <b> escorts services in Mumbai </b>.
+                <a href="https://www.mumbaidating.net/" className="a_color">escort in mumbai</a>.
               </p>
               <p>
                 Be it a Threesome Special Escort Services, One Night Stand with
@@ -366,7 +371,7 @@ export default function Home() {
                 the top{" "}
                 <a className="a_color" href="https://www.mumbaidating.net/">
                   {" "}
-                  escorts services in Mumbai{" "}
+                  mumbai female escorts{" "}
                 </a>{" "}
                 provided by us- The{" "}
                 <strong> VIP escort agency in Mumbai </strong>.
@@ -401,8 +406,8 @@ export default function Home() {
               Model Escorts & Much more. (Enliven the Young Heart within you).
             </li>
             <li>
-              <span className="cat_tit">Bed Mate Matchers </span> - In our Best
-              <strong> Escorts Agency Mumbai </strong>- we have a lot of
+              <span className="cat_tit">Bed Mate Matchers </span> - In our Best {""}
+              <a href="https://www.mumbaidating.net/" className="a_color">escorts in mumbai</a> - we have a lot of
               freelance escorts which include Housewife Escorts, Widow Escorts,
               Divorced Escorts, Desi Bhabi Call Girls, etc. We connect these
               <b> Independent Call girls </b> with their King. In many cases,
@@ -417,7 +422,7 @@ export default function Home() {
             </li>
             <li>
               <span className="cat_tit">Threesome </span> - Indulge in a
-              passionate Threesome with prime Mumbai Model Escorts. We allow
+              passionate Threesome with prime <a href="https://www.mumbaidating.net/" className="a_color">Mumbai Model Escorts</a>. We allow
               special 2 escorts offer for the price of 1 for repeated customers.
             </li>
             <li>
@@ -432,8 +437,8 @@ export default function Home() {
               <strong> Mumbai Call girls Services </strong>.
             </li>
             <li>
-              <span className="cat_tit"> Party Girls Services </span> - Our
-              <b> Mumbai Escorts </b> love to party- the reason we have Party
+              <span className="cat_tit"> Party Girls Services </span> - Our {""}
+              <a href="https://www.mumbaidating.net/" className="a_color">mumbai escort girls</a> love to party- the reason we have Party
               Special Call Girl Services. Add spice to your party with our sexy
               call girls.
             </li>
@@ -452,6 +457,9 @@ export default function Home() {
               tourists and travel lovers, we give Travel{" "}
               <b> Call Girls Services </b>. It includes our top Model Escorts as
               your travel guide and Bed partner.
+            </li>
+            <li>
+              <span className="cat_tit"> Cheap Escorts Mumbai </span> - In our escorts mumbai agency offering low price call girls now, If you intrested on these type of <a href="https://www.mumbaidating.net/" className="a_color">cheap escorts in mumbai</a> feel free to contact us.These girls are cheap but looking so gorgeous if you want to save some money & need to enjoy with girls our cheap escorts is the best option for you.
             </li>
           </ul>
         </div>
@@ -534,7 +542,7 @@ export default function Home() {
               <p className="about_paras">
                 Our{" "}
                 <a href="https://www.mumbaidating.net/" className="a_color">
-                  Mumbai Escorts Services
+                escort service mumbai
                 </a>{" "}
                 doesn't end at ordinary <b>Call Girl Services</b>, we go a step
                 ahead for our VIP Mumbai Clients. We arrange hook-ups & One
@@ -554,7 +562,7 @@ export default function Home() {
                 BJs, and Stripping in front of you. Had we been at your place,
                 we will sip her like bee sips honey. Get your Honeymoon with our
                 Celebrity Escorts- Book your B Town{" "}
-                <strong> Celebrity Escorts </strong> Now.
+                <a href="https://www.mumbaidating.net/" className="a_color">Bollywood Celebrity Escorts</a> Now.
               </p>
               <a
                 href="https://www.mumbaidating.net/mumbai-call-girls"
@@ -586,12 +594,12 @@ export default function Home() {
               </div>
               <p className="about_paras">
                 With just a few clicks, you are about to witness the world's
-                greatest pleasure that is bodily pleasure. The warmth of our
+                greatest pleasure that is bodily pleasure. The warmth of our {""}
                 <strong>Mumbai Call Girls</strong> Body & the freshness of her
                 warm breath will wash away all the pains of your life. Start the
                 journey of love, romance, sex, and pleasure by booking your
                 favorite <b>Mumbai escorts</b> from our{" "}
-                <strong>Mumbai Escorts Gallery</strong>. You can choose to book
+                <a href="https://www.mumbaidating.net/" className="a_color">escorts mumbai</a> Gallery. You can choose to book
                 your dream Girl by phone call, online Booking through our
                 Escorts Website, Email, WhatsApp, or customer Support Desk.
               </p>
@@ -602,9 +610,9 @@ export default function Home() {
                   href="https://www.mumbaidating.net/mumbai-call-girls"
                   className="a_color"
                 >
-                  Mumbai Call Girls Now
+                  Mumbai Call Girls 
                 </a>{" "}
-                . Avail the fun at our prime 4/5 Stars Hotels or right next to
+                Now. Avail the fun at our prime 4/5 Stars Hotels or right next to
                 your bed at home with our 24*7 Mumbai outcall services. Book
                 your Bed Lover Now, Get Special Bonus Services for Free. Contact
                 Now for 25% First Time Discount & Bonus 2-in-1 Escort Services

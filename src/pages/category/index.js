@@ -34,6 +34,15 @@ const Index = () => {
         description="Here is the list of super attractive categories of escorts and call girls. Explore outstanding categories like Threesome, GFE, One night stand, Party Girls, Young escorts, etc..."
       />
       <Wrapper>
+      <div className="top_banner_new">
+          <StaticImage
+              src="../../assets/images/category.jpg"
+              alt="Mumbai escort category"
+              placeholder="blurred"
+              layout="constrained"
+              className="top_img"
+            />
+          </div>
         {/* video start  */}
         <div className="video_box">
           <div className="video_left">

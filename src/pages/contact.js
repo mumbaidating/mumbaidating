@@ -37,12 +37,12 @@ const contact = () => {
           <article>
             <form
               className="form contact-form"
-              name="contact"
+              name="contact_v1"
               method="POST"
               data-netlify="true"
               onSubmit="submit"
             >
-              <input type="hidden" name="form-name" value="contact"></input>
+              <input type="hidden" name="form-name" value="contact_v1"></input>
               <div className="form-row">
                 <label htmlFor="name">your name</label>
                 <input type="text" name="name" id="name" />

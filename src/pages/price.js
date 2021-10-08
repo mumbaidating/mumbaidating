@@ -21,6 +21,15 @@ const Price = () => {
           title="Cheap and Affordable Escort service Mumbai with VIP Service"
           description="Get attractive & High-Profile call girl service Mumbai at very affordable rates. This includes the VIP service; money will be refunded if you don’t like the service."
         />
+        <div className="top_banner_new">
+          <StaticImage
+              src="../assets/images/cheap-price.jpg"
+              alt="Mumbai escort Faq"
+              placeholder="blurred"
+              layout="constrained"
+              className="top_img"
+            />
+          </div>
         {/* video start  */}
         {/* slide line start  */}
         <div className="section-title">

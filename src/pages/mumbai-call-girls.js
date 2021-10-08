@@ -5,7 +5,7 @@ import styled from "styled-components"
 import { StaticImage } from "gatsby-plugin-image"
 import SEO from "../components/SEO"
 import video from "../assets/videos/new-video-three.mp4"
-import { Breadcrumb } from "gatsby-plugin-breadcrumb"
+// import { Breadcrumb } from "gatsby-plugin-breadcrumb"
 
 const Mumbaicallgirls = () => {
   return (
@@ -16,6 +16,15 @@ const Mumbaicallgirls = () => {
       />
 
       <Wrapper>
+      <div className="top_banner_new">
+          <StaticImage
+              src="../assets/images/call-girls.jpg"
+              alt="Mumbai call girls"
+              placeholder="blurred"
+              layout="constrained"
+              className="top_img"
+            />
+          </div>
         {/* video start  */}
         <div className="video_box">
           <div className="video_left">

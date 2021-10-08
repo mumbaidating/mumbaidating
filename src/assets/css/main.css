@@ -373,6 +373,7 @@ form > *:last-child {
   position: sticky;
   top: 0;
   z-index: 999;
+  border-bottom: 1px solid gold;
 }
 .nav-center {
   width: 90vw;
@@ -793,5 +794,16 @@ img:not(.nav-logo) {
 .video_img {
   box-shadow: 0 0 4px 4px #ecd113cc;
 }
-
+.top_img{
+  width: 75vw;
+  box-shadow: 0 0 4px 4px #ecd113cc;
+}
+.top_banner_new{
+  text-align: center;
+  margin: 0px auto;
+  display: block;
+  width: 100%;
+  width: 75vw;
+  margin-top: 5px;
+}
 /* home css  */
