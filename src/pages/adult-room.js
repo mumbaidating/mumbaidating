@@ -94,6 +94,7 @@ const AdultRoom = () => {
           <div className="video_wrapper">
             <video loop="true" autoplay="autoplay">
               <source src={video} type="video/mp4" />
+             
             </video>
           </div>
         </div>

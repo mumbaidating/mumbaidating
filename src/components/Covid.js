@@ -1,26 +1,26 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import styled from "styled-components"
 
 const Covid = () => {
   const [date, setDate] = React.useState(new Date())
 
-  const [data, setCovidData] = useState([])
+  // const [data, setCovidData] = useState([])
 
-  console.log(data)
+  // console.log(data)
 
-  const getCovidData = async () => {
-    try {
-      const res = await fetch("https://api.covid19india.org/data.json")
-      const cdata = await res.json()
-      setCovidData(cdata.statewise[0])
-    } catch (error) {
-      console.log(error)
-    }
-  }
+  // const getCovidData = async () => {
+  //   try {
+  //     const res = await fetch("https://api.covid19india.org/data.json")
+  //     const cdata = await res.json()
+  //     setCovidData(cdata.statewise[0])
+  //   } catch (error) {
+  //     console.log(error)
+  //   }
+  // }
 
-  useEffect(() => {
-    getCovidData()
-  }, [])
+  // useEffect(() => {
+  //   getCovidData()
+  // }, [])
 
   //Replaces componentDidMount and componentWillUnmount
   React.useEffect(() => {
@@ -72,7 +72,7 @@ const Covid = () => {
             </p>
             <ul>
               <li>
-                Rapid Antigen Covid test of our Mumbai Escorts every time when
+                Rapid Antigen Covid test of our <b>Mumbai Escort</b> every time when
                 she visits a new client.
               </li>
               <li>
@@ -80,7 +80,7 @@ const Covid = () => {
                 & Clients.
               </li>
               <li>
-                5+ Instant Health Tests of our Mumbai Call girls before allowing
+                5+ Instant Health Tests of our <b>Mumbai Call girls</b> before allowing
                 her a VIP client.
               </li>
               <li>
@@ -92,7 +92,7 @@ const Covid = () => {
                 Model Escorts, weekly and monthly.
               </li>
               <li>
-                No Middlemen Rule- We give our Mumbai Escorts Whatsapp number as
+                No Middlemen Rule- We give our <a href="https://www.mumbaidating.net/" className="a_color">Mumbai Escorts Whatsapp number</a> as
                 soon as the client is verified.
               </li>
               <li>

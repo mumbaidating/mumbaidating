@@ -14,7 +14,7 @@ const CategoryDetail = ({ data }) => {
     imageAltTitle,
     // categoryDescription: { categoryDescription },
     categoryImg,
-    catDes: { id, instructions },
+    catDes: {  instructions },
   } = data.contentfulCetegory
   const {
     metaTitle,

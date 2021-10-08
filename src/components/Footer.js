@@ -5,7 +5,7 @@ import { AiOutlineTwitter } from "react-icons/ai"
 import { FaInstagram } from "react-icons/fa"
 import { FaLinkedinIn } from "react-icons/fa"
 import { AiFillYoutube } from "react-icons/ai"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Footer = () => {
@@ -41,93 +41,93 @@ const Footer = () => {
               <ul className="box">
                 <li className="link_name">Company</li>
                 <li>
-                  <Link to="/">Home</Link>
+                  <a href="/">Home</a>
                 </li>
                 <li>
-                  <Link to="/mumbai-escorts">Mumbai Escorts</Link>
+                  <a href="/mumbai-escorts">Mumbai Escorts</a>
                 </li>
                 <li>
-                  <Link to="/mumbai-call-girls">Mumbai Call girl</Link>
+                  <a href="/mumbai-call-girls">Mumbai Call girl</a>
                 </li>
                 <li>
-                  <Link to="/category">Category</Link>
+                  <a href="/category">Category</a>
                 </li>
                 <li>
-                  <Link to="/location">Location</Link>
+                  <a href="/location">Location</a>
                 </li>
               </ul>
               <ul className="box">
                 <li className="link_name">Company</li>
                 <li>
-                  <Link to="/adult-room">Adult Room</Link>
+                  <a href="/adult-room">Adult Room</a>
                 </li>
                 <li>
-                  <Link to="/faq">Faq</Link>
+                  <a href="/faq">Faq</a>
                 </li>
                 <li>
-                  <Link to="/price">Price</Link>
+                  <a href="/price">Price</a>
                 </li>
                 <li>
-                  <Link to="/blog">Blog</Link>
+                  <a href="/blog">Blog</a>
                 </li>
                 <li>
-                  <Link to="/contact">contact</Link>
+                  <a href="/contact">contact</a>
                 </li>
               </ul>
               <ul className="box">
                 <li className="link_name">Locations</li>
                 <li>
-                  <Link to="https://www.mumbaidating.net/location/andheri">
+                  <a href="https://www.mumbaidating.net/location/andheri">
                     Andheri
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="https://www.mumbaidating.net/location/bandra">
+                  <a href="https://www.mumbaidating.net/location/bandra">
                     Bandra
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="https://www.mumbaidating.net/location/borivali">
+                  <a href="https://www.mumbaidating.net/location/borivali">
                     Borivali
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="https://www.mumbaidating.net/location/chembur">
+                  <a href="https://www.mumbaidating.net/location/chembur">
                     Chembur
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="https://www.mumbaidating.net/location/powai">
+                  <a href="https://www.mumbaidating.net/location/powai">
                     Powai
-                  </Link>
+                  </a>
                 </li>
               </ul>
               <ul className="box">
                 <li className="link_name">Categories</li>
                 <li>
-                  <Link to="https://www.mumbaidating.net/category/girlfriend-experience">
+                  <a href="https://www.mumbaidating.net/category/girlfriend-experience">
                     Girlfriend Experience
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="https://www.mumbaidating.net/category/one-night-stand">
+                  <a href="https://www.mumbaidating.net/category/one-night-stand">
                     One Night Stand
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="https://www.mumbaidating.net/category/threesome">
+                  <a href="https://www.mumbaidating.net/category/threesome">
                     Threesome
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="https://www.mumbaidating.net/category/women-seeking-men">
+                  <a href="https://www.mumbaidating.net/category/women-seeking-men">
                     Women Seeking Men
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="https://www.mumbaidating.net/category/young-escorts">
+                  <a href="https://www.mumbaidating.net/category/young-escorts">
                     Young Escorts
-                  </Link>
+                  </a>
                 </li>
               </ul>
 
@@ -149,7 +149,7 @@ const Footer = () => {
                 Copyright © {new Date().getUTCFullYear()} <a href="#">Logo.</a>
                 All rights reserved
               </span>
-              <Link to="/">
+              <a href="/">
                 <StaticImage
                   src="../assets/images/mumbai-dating.png"
                   alt="mumbai escorts"
@@ -157,10 +157,10 @@ const Footer = () => {
                   layout="constrained"
                   className="footer_logo"
                 />
-              </Link>
+              </a>
               <span className="policy_terms">
-                <Link to="/">Privacy policy</Link>
-                <Link to="/">Terms &amp; condition</Link>
+                <a href="/">Privacy policy</a>
+                <a href="/">Terms &amp; condition</a>
               </span>
             </div>
           </div>

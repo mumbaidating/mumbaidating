@@ -14,7 +14,7 @@ const LocationDetail = ({ data }) => {
     imageAltTitle,
     // locationDescription: { locationDescription },
     locationImg,
-    locDec: { id, instructions },
+    locDec: {  instructions },
   } = data.contentfulLocation
   const {
     metaTitle,

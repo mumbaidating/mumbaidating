@@ -3,7 +3,7 @@ import Layout from "../components/Layout"
 import styled from "styled-components"
 import { FiSettings } from "react-icons/fi"
 import { FaFirstOrder } from "react-icons/fa"
-import { FiEdit } from "react-icons/fi"
+// import { FiEdit } from "react-icons/fi"
 import { FaRupeeSign } from "react-icons/fa"
 import { TiTick } from "react-icons/ti"
 import { AiFillCloseCircle } from "react-icons/ai"
@@ -65,7 +65,7 @@ const Price = () => {
         <div className="container_price">
           <div className="pricing-table">
             <div className="icon type-01">
-              <CgGirl />
+              <FiSettings />
             </div>
             <h3 className="heading">2 Hours (1 service)</h3>
             <h1 className="service-price">
@@ -149,7 +149,7 @@ const Price = () => {
           </div>
           <div className="pricing-table">
             <div className="icon type-03">
-              <CgGirl />
+              <FaFirstOrder />
             </div>
             <h3 className="heading">Full Night (4 service)</h3>
             <h1 className="service-price">

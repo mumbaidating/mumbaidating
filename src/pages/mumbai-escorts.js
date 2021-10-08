@@ -6,7 +6,7 @@ import styled from "styled-components"
 import SEO from "../components/SEO"
 import video from "../assets/videos/new-video-three.mp4"
 import { StaticImage } from "gatsby-plugin-image"
-import { Breadcrumb } from "gatsby-plugin-breadcrumb"
+// import { Breadcrumb } from "gatsby-plugin-breadcrumb"
 
 const Mumbaiescorts = () => {
   return (

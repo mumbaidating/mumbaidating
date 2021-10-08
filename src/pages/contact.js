@@ -24,7 +24,7 @@ const contact = () => {
             <p>
               To find out more about our escorts, agencies, clubs, and
               promotions for advertising in several listings as Premium/Featured
-              listings, please visit https://www.mumbaidating.net/
+              listings, please visit <a href="https://www.mumbaidating.net/" className="a_color">https://www.mumbaidating.net/</a> 
             </p>
 
             <p>Do you need any assistance?</p>
