@@ -1,6 +1,8 @@
 import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
+import { StaticImage } from "gatsby-plugin-image"
+
 
 const contact = () => {
   return (
@@ -9,6 +11,17 @@ const contact = () => {
         title="Contact our Mumbai Escorts | Book Call girls in 25min Doorstep"
         description="Our customer support is available 24/7 that are ready to help you in Booking our Mumbai escorts Service in very less time."
       />
+
+<div className="top_banner_new">
+          <StaticImage
+              src="../assets/images/contact-top.jpg"
+              alt="Contact Mumbai escorts"
+              placeholder="blurred"
+              layout="constrained"
+              className="top_img"
+            />
+          </div>
+
       <main className="page">
         <section className="contact-page">
           <article className="contact-info">

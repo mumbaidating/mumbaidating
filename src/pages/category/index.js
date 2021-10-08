@@ -8,6 +8,7 @@ import slugify from "slugify"
 import SEO from "../../components/SEO"
 import video from "../../assets/videos/new-video-three.mp4"
 import { StaticImage } from "gatsby-plugin-image"
+import LocationButton from "../../components/LocationButton"
 
 const query = graphql`
   {
@@ -124,6 +125,10 @@ const Index = () => {
             )
           })}
         </main>
+
+          {/* location btn component start */}
+          <LocationButton />
+        {/* location btn component end */}
       </Wrapper>
     </Layout>
   )

@@ -108,7 +108,7 @@ export default function Home() {
         <div className="device_img">
           <StaticImage
             src="../assets/images/all-device.png"
-            alt="mumbai escorts website"
+            alt="mumbai escort"
             placeholder="blurred"
             layout="constrained"
           />
@@ -262,32 +262,35 @@ export default function Home() {
             Meet- Can't get simpler than that.
           </p>
         </div>
+        {/* location btn component start */}
         <LocationButton />
+        {/* location btn component end */}
+
         <div className="img_gal_one mini_container">
           <StaticImage
             src="../assets/images/quote1.jpg"
-            alt="Mumbai escorts"
+            alt="escorts in mumbai"
             placeholder="blurred"
             layout="constrained"
             className="img_gal_one_image"
           />
           <StaticImage
             src="../assets/images/quote2.jpg"
-            alt="Mumbai escort service"
+            alt="escort service mumbai"
             placeholder="blurred"
             layout="constrained"
             className="img_gal_one_image"
           />
           <StaticImage
             src="../assets/images/quote3.jpg"
-            alt="mumbai call girls"
+            alt="mumbai escorts service"
             placeholder="blurred"
             layout="constrained"
             className="img_gal_one_image"
           />
           <StaticImage
             src="../assets/images/quote4.jpg"
-            alt="escort service mumbai"
+            alt="mumbai female escorts "
             placeholder="blurred"
             layout="constrained"
             className="img_gal_one_image"
@@ -386,7 +389,7 @@ export default function Home() {
             <article className="">
               <StaticImage
                 src="../assets/images/sexy-night.png"
-                alt="escorts in mumbai"
+                alt="mumbai escort girls"
                 placeholder="blurred"
                 layout="constrained"
               />
@@ -483,28 +486,28 @@ export default function Home() {
         <div className="img_gal_one mini_container">
           <StaticImage
             src="../assets/images/new-ban-1.jpg"
-            alt="sexy mumbai escorts"
+            alt="escort in mumbai"
             placeholder="blurred"
             layout="constrained"
             className="img_gal_one_image"
           />
           <StaticImage
             src="../assets/images/new-ban-2.jpg"
-            alt="vip mumbai escorts"
+            alt="escort service in mumbai"
             placeholder="blurred"
             layout="constrained"
             className="img_gal_one_image"
           />
           <StaticImage
             src="../assets/images/new-ban-3.jpg"
-            alt="mumbai call girl service"
+            alt="mumbai escorts agency"
             placeholder="blurred"
             layout="constrained"
             className="img_gal_one_image"
           />
           <StaticImage
             src="../assets/images/new-ban-4.jpg"
-            alt="escorts mumbai"
+            alt="escort mumbai"
             placeholder="blurred"
             layout="constrained"
             className="img_gal_one_image"
@@ -525,7 +528,7 @@ export default function Home() {
             <article className="about-img">
               <StaticImage
                 src="../assets/images/sexy-callgirl-one.jpg"
-                alt="mumbai escorts nearme"
+                alt="russian escorts in mumbai"
                 placeholder="blurred"
                 layout="constrained"
                 className="hero-photo"
@@ -579,7 +582,7 @@ export default function Home() {
             <article className="about-img">
               <StaticImage
                 src="../assets/images/sexy-callgirl-two.jpg"
-                alt="cheap mumbai escorts"
+                alt="escorts mumbai"
                 placeholder="blurred"
                 layout="constrained"
                 className="hero-photo"
@@ -625,7 +628,7 @@ export default function Home() {
         <div className="img_one">
           <StaticImage
             src="../assets/images/contact.jpg"
-            alt="High class mumbai escorts"
+            alt="mumbai model escorts"
             placeholder="blurred"
             layout="constrained"
           />

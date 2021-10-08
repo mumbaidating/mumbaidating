@@ -4,6 +4,8 @@ import styled from "styled-components"
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import video from "../assets/videos/new-video-two.mp4"
+import ButtonCategory from "../components/ButtonCategory"
+
 
 const FaqData = graphql`
   {
@@ -66,6 +68,7 @@ const Faq = () => {
                 placeholder="blurred"
                 layout="constrained"
               />
+               <ButtonCategory />
             </div>
           </div>
         </div>

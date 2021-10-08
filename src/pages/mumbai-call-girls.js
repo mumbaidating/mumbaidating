@@ -5,6 +5,8 @@ import styled from "styled-components"
 import { StaticImage } from "gatsby-plugin-image"
 import SEO from "../components/SEO"
 import video from "../assets/videos/new-video-three.mp4"
+import LocationButton from "../components/LocationButton"
+
 // import { Breadcrumb } from "gatsby-plugin-breadcrumb"
 
 const Mumbaicallgirls = () => {
@@ -30,7 +32,7 @@ const Mumbaicallgirls = () => {
           <div className="video_left">
             <StaticImage
               src="../assets/images/quote2.jpg"
-              alt="Mumbai call girls"
+              alt="cheap escorts in mumbai"
               placeholder="blurred"
               layout="constrained"
               className="video_img"
@@ -87,6 +89,10 @@ const Mumbaicallgirls = () => {
           </p>
         </div>
 
+          {/* location btn component start */}
+          <LocationButton />
+        {/* location btn component end */}
+
         {/* about sec start  */}
         <div className="mini_container">
           {/* slide line start  */}
@@ -96,6 +102,8 @@ const Mumbaicallgirls = () => {
           </div>
           {/* slide line start  */}
         </div>
+
+        
 
         {/* <div>
           <section className="section2" id="AboutUs">
@@ -182,7 +190,7 @@ const Mumbaicallgirls = () => {
             <article className="about-img">
               <StaticImage
                 src="../assets/images/sexy-callgirl-one.jpg"
-                alt="mumbai escorts nearme"
+                alt="mumbai escorts"
                 placeholder="blurred"
                 layout="constrained"
                 className="hero-photo"

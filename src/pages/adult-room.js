@@ -7,6 +7,8 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { useStaticQuery, graphql } from "gatsby"
 import SEO from "../components/SEO"
 import video from "../assets/videos/new-video-three.mp4"
+import LocationButton from "../components/LocationButton"
+
 
 const AdultRoomNew = graphql`
   {
@@ -150,6 +152,11 @@ const AdultRoom = () => {
            } */}
           </div>
         </div>
+
+             {/* location btn component start */}
+             <LocationButton />
+        {/* location btn component end */}
+
       </Wrapper>
     </Layout>
   )

@@ -66,8 +66,8 @@ const Index = () => {
             We cover 13 areas in Mumbai which is located 603km approx and we
             offer a discreet way to hire an escort so that no one knows about
             it. We're here to help provide models like these -the kind every
-            affluent person wants around them constantly and all day long! The
-            Mumbai escort works all over the India. Our girls are top models
+            affluent person wants around them constantly and all day long! The {""}
+            <a href="https://www.mumbaidating.net/" className="a_color">Mumbai escort</a> works all over the India. Our girls are top models
             from every Nationality. You can invite our girls to rest and spend
             an unforgettable time. All models from our agency: the educated
             girls, know various languages, and also give high class service and
