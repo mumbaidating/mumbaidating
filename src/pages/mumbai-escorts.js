@@ -126,7 +126,7 @@ const Wrapper = styled.div`
     font-weight: 900;
     font-style: italic;
 }
-.video_top_image{
+.video_top_image{ 
   height: 35vw;
 }
   .video_img {

@@ -11,6 +11,7 @@ import SEO from "../components/SEO"
 import Covid from "../components/Covid"
 import KamasutraPositions from "../components/KamasutraPositions"
 import SimpleSlider from "../components/SimpleSlider"
+import GalleryTwo from "../components/GalleryTwo"
 // import { Link } from "gatsby"
 
 export default function Home() {
@@ -185,6 +186,11 @@ export default function Home() {
             </p>
           </div>
         </div>
+
+
+         <GalleryTwo />
+
+
         <div className="img_one covid_rules_box">
           <StaticImage
             src="../assets/images/covid-rules.jpg"
