@@ -12,12 +12,12 @@ const ProfileRating = () => {
         </div>
         {/* slide line start  */}
         <form
-          name="contact"
+          name="contact_v2"
           method="POST"
           data-netlify="true"
           onSubmit="submit"
         >
-          <input type="hidden" name="form-name" value="contact"></input>
+          <input type="hidden" name="form-name" value="contact_v2"></input>
           <p>
             <label>
               Your Name: <input type="text" name="name" required />
@@ -49,6 +49,9 @@ const Wrapper = styled.div`
   margin-bottom: 40px;
   .profile_reviews {
     text-align: center;
+  }
+  label{
+    color: gold;
   }
 `
 
