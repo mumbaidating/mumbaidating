@@ -25,15 +25,22 @@ const GalleryTwoDet = ({data}) => {
   nationality,
   girlDetailImg,
   girlSingleimg,
-  metaTitle,
-  metaDesc,
   girlDet:{girlDet},
  } = data.contentfulVipProfile
  const pathToImage = getImage(girlSingleimg)
+
+
+ const {
+  metaTitle,
+  metaDescription: { metaDescription },
+} = data.contentfulVipProfile
+
+
+
  return (
   <Layout>
 
-<SEO title={metaTitle} description={metaDesc} />
+<SEO title={metaTitle} description={metaDescription} />
 
    <Wrapper>
 
@@ -192,6 +199,10 @@ query getGalleryTwo($girlName:String) {
   id
   languages
   nationality
+  metaTitle
+      metaDescription {
+        metaDescription
+      }
   girlDet {
     girlDet
   }
