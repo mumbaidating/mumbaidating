@@ -12,7 +12,7 @@ import { GiHairStrands } from "react-icons/gi"
 import { FaLanguage } from "react-icons/fa"
 import { GiBodyHeight } from "react-icons/gi"
 import { GiWorld } from "react-icons/gi"
-
+import SEO from "../../components/SEO"
 
 const GalleryTwoDet = ({data}) => {
  const {
@@ -25,11 +25,16 @@ const GalleryTwoDet = ({data}) => {
   nationality,
   girlDetailImg,
   girlSingleimg,
+  metaTitle,
+  metaDesc,
   girlDet:{girlDet},
  } = data.contentfulVipProfile
  const pathToImage = getImage(girlSingleimg)
  return (
   <Layout>
+
+<SEO title={metaTitle} description={metaDesc} />
+
    <Wrapper>
 
        <div className="gal_two_name">
