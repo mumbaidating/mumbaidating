@@ -795,7 +795,7 @@ img:not(.nav-logo) {
   box-shadow: 0 0 4px 4px #ecd113cc;
 }
 .top_img{
-  width: 100vw;
+  width: 98vw;
   height: 25vw;
   box-shadow: 0 0 4px 4px #ecd113cc;
 }
@@ -804,7 +804,8 @@ img:not(.nav-logo) {
   margin: 0px auto;
   display: block;
   width: 100%;
-  width: 100vw;
+  width: 98vw;
   margin-top: 5px;
+  overflow-x: hidden;
 }
 /* home css  */
