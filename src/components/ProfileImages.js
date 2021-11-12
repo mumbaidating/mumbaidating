@@ -97,13 +97,13 @@ const ProfileImages = () => {
                       <span className="profile_span">{girlWeight} kg</span>
                     </div>
                   </div>
-                  <hr width="80%" />
+                  {/* <hr width="80%" />
                   <div className="profile_end">
                     <p className="phoneprofile">
                       <span className="phone_color">phone</span>:
                       <span className="phone_red">+91 90000000000</span>
                     </p>
-                  </div>
+                  </div> */}
                   <hr width="80%" />
                   <div className="profile_vat_blink">
                     <p className="text-red blink-hard phoneprofile phone_color">
@@ -135,6 +135,10 @@ const ProfileImages = () => {
 }
 
 const Wrapper = styled.div`
+  .remove_btn_one{
+  padding: 2px 8px !important;
+  font-size: 15px !important;
+  }
   .refresh_btn {
     margin: 0px auto;
     display: block;

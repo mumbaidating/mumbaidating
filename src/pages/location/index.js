@@ -6,7 +6,7 @@ import { Link } from "gatsby"
 import { useStaticQuery, graphql } from "gatsby"
 import slugify from "slugify"
 import SEO from "../../components/SEO"
-import video from "../../assets/videos/new-video-three.mp4"
+import video from "../../assets/videos/location-video.mp4"
 import { StaticImage } from "gatsby-plugin-image"
 
 const query = graphql`

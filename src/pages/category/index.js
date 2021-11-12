@@ -6,7 +6,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import slugify from "slugify"
 import SEO from "../../components/SEO"
-import video from "../../assets/videos/new-video-three.mp4"
+import video from "../../assets/videos/category.mp4"
 import { StaticImage } from "gatsby-plugin-image"
 import LocationButton from "../../components/LocationButton"
 

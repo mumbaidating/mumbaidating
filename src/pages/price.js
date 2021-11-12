@@ -10,7 +10,7 @@ import { AiFillCloseCircle } from "react-icons/ai"
 import { CgGirl } from "react-icons/cg"
 
 import SEO from "../components/SEO"
-import video from "../assets/videos/new-video-three.mp4"
+import video from "../assets/videos/price.mp4"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Price = () => {

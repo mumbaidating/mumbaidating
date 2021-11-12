@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import { StaticImage } from "gatsby-plugin-image"
-
+import video from "../assets/videos/contact.mp4"
 
 const contact = () => {
   return (
@@ -12,7 +12,7 @@ const contact = () => {
         description="Our customer support is available 24/7 that are ready to help you in Booking our Mumbai escorts Service in very less time."
       />
 
-<div className="top_banner_new">
+         <div className="top_banner_new">
           <StaticImage
               src="../assets/images/contact-top.jpg"
               alt="Contact Mumbai escorts"
@@ -21,7 +21,6 @@ const contact = () => {
               className="top_img"
             />
           </div>
-
       <main className="page">
         <section className="contact-page">
           <article className="contact-info">
@@ -39,7 +38,6 @@ const contact = () => {
               promotions for advertising in several listings as Premium/Featured
               listings, please visit <a href="https://www.mumbaidating.net/" className="a_color">https://www.mumbaidating.net/</a> 
             </p>
-
             <p>Do you need any assistance?</p>
             <p>
               Contact us by phone, email, or through an online chat service in
@@ -58,15 +56,15 @@ const contact = () => {
               <input type="hidden" name="form-name" value="contact_v1"></input>
               <div className="form-row">
                 <label htmlFor="name">your name</label>
-                <input type="text" name="name" id="name" />
+                <input type="text" name="name" id="name" required />
               </div>
               <div className="form-row">
                 <label htmlFor="email">your email</label>
-                <input type="text" name="email" id="email" />
+                <input type="text" name="email" id="email" required />
               </div>
               <div className="form-row">
                 <label htmlFor="message">message</label>
-                <textarea name="message" id="message"></textarea>
+                <textarea name="message" id="message" required></textarea>
               </div>
               <button type="submit" className="btn block">
                 submit
@@ -75,6 +73,26 @@ const contact = () => {
           </article>
         </section>
       </main>
+      <div className="my_container">
+        {/* video start  */}
+        <div className="video_box">
+          <div className="video_left">
+            <StaticImage
+              src="../assets/images/new-ban-2.jpg"
+              alt="mumbai escorts Adult room"
+              placeholder="blurred"
+              layout="constrained"
+              className="video_img"
+            />
+          </div>
+          <div className="video_wrapper">
+            <video loop="true" autoplay="autoplay">
+              <source src={video} type="video/mp4" />
+             
+            </video>
+          </div>
+        </div>
+      </div>
     </Layout>
   )
 }

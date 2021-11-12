@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { useStaticQuery, graphql } from "gatsby"
 import SEO from "../components/SEO"
-import video from "../assets/videos/new-video-three.mp4"
+import video from "../assets/videos/adult-room.mp4"
 import LocationButton from "../components/LocationButton"
 
 

@@ -4,7 +4,7 @@ import ProfileImages from "../components/ProfileImages"
 import MumbaiEscorts from "../components/MumbaiEscorts"
 import styled from "styled-components"
 import SEO from "../components/SEO"
-import video from "../assets/videos/new-video-three.mp4"
+import video from "../assets/videos/mumbai-escorts-video.mp4"
 import { StaticImage } from "gatsby-plugin-image"
 import LocationButton from "../components/LocationButton"
 
