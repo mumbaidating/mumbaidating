@@ -3,7 +3,7 @@ import Layout from "../components/Layout"
 import styled from "styled-components"
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import video from "../assets/videos/new-video-two.mp4"
+import video from "../assets/videos/faq.mp4"
 import ButtonCategory from "../components/ButtonCategory"
 
 

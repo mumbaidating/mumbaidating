@@ -3,7 +3,7 @@ import Layout from "../../components/Layout"
 import Blog from "../../components/Blog"
 import styled from "styled-components"
 import SEO from "../../components/SEO"
-import video from "../../assets/videos/new-video-three.mp4"
+import video from "../../assets/videos/blog.mp4"
 import { StaticImage } from "gatsby-plugin-image"
 const index = () => {
   return (

@@ -6,6 +6,8 @@ import styled from "styled-components"
 import OtherCategories from "../../components/OtherCategories"
 import OtherProfiles from "../../components/OtherProfile"
 import SEO from "../../components/SEO"
+import video from "../../assets/videos/cat-det.mp4"
+import { StaticImage } from "gatsby-plugin-image"
 
 const CategoryDetail = ({ data }) => {
   const {
@@ -25,6 +27,26 @@ const CategoryDetail = ({ data }) => {
     <Layout>
       <SEO title={metaTitle} description={metaDescription} />
       <Wrapper>
+
+    {/* video start  */}
+    <div className="video_box">
+          <div className="video_left video_left_det">
+            <StaticImage
+              src="../assets/images/quote3.jpg"
+              alt="mumbai escorts categories"
+              placeholder="blurred"
+              layout="constrained"
+              className="video_img"
+            />
+          </div>
+          <div className="video_wrapper">
+            <video loop="true" autoplay="autoplay">
+              <source src={video} type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        {/* video end  */}
+
         {/* slide line start  */}
         <div className="section-title">
           <h1 className="section_title_main">{categoryTitle} </h1>
@@ -79,6 +101,7 @@ export const query = graphql`
 `
 
 const Wrapper = styled.div`
+
   margin-bottom: 30px;
   margin-top: 30px;
   background-color: #000;
@@ -106,6 +129,9 @@ const Wrapper = styled.div`
     display: block;
   }
   @media only screen and (max-width: 900px) {
+    .video_left_det{
+      display:none ;
+    }
     .category_det_grid {
       display: grid;
       grid-template-columns: 1fr;

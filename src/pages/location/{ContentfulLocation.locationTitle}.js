@@ -6,6 +6,8 @@ import styled from "styled-components"
 import OtherLocations from "../../components/OtherLocations"
 import OtherProfiles from "../../components/OtherProfile"
 import SEO from "../../components/SEO"
+import video from "../../assets/videos/loc-det.mp4"
+import { StaticImage } from "gatsby-plugin-image"
 
 const LocationDetail = ({ data }) => {
   const {
@@ -25,6 +27,24 @@ const LocationDetail = ({ data }) => {
     <Layout>
       <SEO title={metaTitle} description={metaDescription} />
       <Wrapper>
+        {/* video start  */}
+    <div className="video_box">
+          <div className="video_left video_left_det">
+            <StaticImage
+              src="../assets/images/quote3.jpg"
+              alt="mumbai escorts categories"
+              placeholder="blurred"
+              layout="constrained"
+              className="video_img"
+            />
+          </div>
+          <div className="video_wrapper">
+            <video loop="true" autoplay="autoplay">
+              <source src={video} type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        {/* video end  */}
         {/* slide line start  */}
         <div className="section-title">
           <h1 className="section_title_main">{locationTitle} Escorts</h1>
@@ -113,6 +133,9 @@ const Wrapper = styled.div`
     }
     .loc_det_img {
       width: 100%;
+    }
+    .video_left_det{
+      display:none ;
     }
   }
 `
