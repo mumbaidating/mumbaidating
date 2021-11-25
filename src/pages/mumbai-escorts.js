@@ -74,7 +74,7 @@ const Mumbaiescorts = () => {
           <p className="text_left">
             We understand that each client has their own individual preferences
             and desires. Our carefully selected team of{" "}
-             <a href="Mumbai escort service" className="a_color">VIP escorts in Mumbai</a> offers a variety of models catering to
+             <a href="https://www.mumbaidating.net/" className="a_color">VIP escorts in Mumbai</a> offers a variety of models catering to
             many tastes, including mature ladies with the busty figure you
             desire or teenage girls who are new on the scene but eager for your
             company.
