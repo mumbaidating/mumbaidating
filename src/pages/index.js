@@ -25,7 +25,7 @@ export default function Home() {
         <div className="home_header_banner">
           <div className="desktop_banner">
             <StaticImage
-              src="../assets/images/mumbaidating-desktop.jpg"
+              src="../assets/images/daing-mumbai-banner.jpg"
               alt="mumbai escorts"
               placeholder="blurred"
               layout="constrained"
